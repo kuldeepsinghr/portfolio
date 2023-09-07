@@ -3,7 +3,15 @@ import Netflix from '../image/netflix.png'
 import Microsoft from '../image/microsoft.png'
 import ImageSearch from '../image/imagesearch.png'
 import Todo from '../image/todoapp.png'
+
 export default [
+    {
+        title:'Netflix Clone',
+        imgUrl:Netflix,
+        tech: ['HTML', 'Tailwind CSS', 'Firebase'],
+        workUrl:'https://kuldeepnetflixapp.netlify.app/'
+    },
+
     {
         title:'Search Images',
         imgUrl:ImageSearch,
@@ -23,13 +31,6 @@ export default [
         imgUrl:Health,
         tech: ['HTML', 'Tailwind CSS', 'JavaScript'],
         workUrl:'https://healthkuldeepsite.netlify.app/'
-    },
-
-    {
-        title:'Netflix UI',
-        imgUrl:Netflix,
-        tech: ['HTML', 'Tailwind CSS'],
-        workUrl:'https://netflixkuldeep.netlify.app/'
     },
 
     {
