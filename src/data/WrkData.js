@@ -3,12 +3,19 @@ import Netflix from '../image/netflix.png'
 import Microsoft from '../image/microsoft.png'
 import ImageSearch from '../image/imagesearch.png'
 import Todo from '../image/todoapp.png'
+import Youtube from '../image/youtube.png'
 
 export default [
     {
+        title:'Youtube Clone',
+        imgUrl:Youtube,
+        tech: ['React js', 'Rapid Api', 'Tailwind CSS'],
+        workUrl:'https://kuldeepyoutubeclone.netlify.app/'
+    },
+    {
         title:'Netflix Clone',
         imgUrl:Netflix,
-        tech: ['HTML', 'Tailwind CSS', 'Firebase'],
+        tech: ['React js', 'Tailwind CSS', 'Firebase'],
         workUrl:'https://kuldeepnetflixapp.netlify.app/'
     },
 
